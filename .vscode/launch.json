@@ -21,6 +21,18 @@
             "request": "launch",
             "name": "examples auth",
             "program": "${workspaceFolder}/examples/auth/index.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "examples static-files",
+            "program": "${workspaceFolder}/examples/static-files/index.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "examples web-service",
+            "program": "${workspaceFolder}/examples/web-service/index.js"
         }
     ]
 }
